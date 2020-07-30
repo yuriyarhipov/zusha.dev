@@ -1,0 +1,22 @@
+baseurl = "localhost"
+languageCode = "en-us"
+Title = "ZUSHA"
+
+# Google Analytics API key.
+googleAnalytics = "Your Google Analytics tracking id"
+
+[params]
+  paginate = 10
+  custom_css = ["/css/custom.css"]
+
+[[menu.main]]
+    name = "Blog"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Author"
+    url = "https://yura.cc"
+    weight = 2
+
+
